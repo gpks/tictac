@@ -16,11 +16,7 @@ $( document ).ready(function() {
         console.log($(event.target).text());
         $('#gracz').html("2");
       }
-      
-      console.log($('.b').text());
-
-      console.log($('.a').text());
-      
+          
       if (($('.a').text()=="OOO"||$('.a').text()=="XXX")
         ||($('.b').text()=="OOO"||$('.b').text()=="XXX")
         ||($('.c').text()=="OOO"||$('.c').text()=="XXX")
@@ -31,32 +27,11 @@ $( document ).ready(function() {
         ||($('.z').text()=="OOO"||$('.z').text()=="XXX")
         ){
        alert("wygrałeś");
-        game();
-     
+        game();    
 
       }
 
-    //   else if ($('.b').text()=="OOO"||$('.b').text()=="XXX"){
-    //    alert("wygrałeś");
-    //   }
-    //   else if ($('.c').text()=="OOO"||$('.c').text()=="XXX"){
-    //    alert("wygrałeś");
-    //    }
-    //   else if ($('.d').text()=="OOO"||$('.d').text()=="XXX" ){
-    //    alert("wygrałeś");
-    //    }
-    //   else if ($('.e').text()=="OOO"||$('.e').text()=="XXX" ){
-    //    alert("wygrałeś");
-    //    }
-    //   else if ($('.f').text()=="OOO"||$('.f').text()=="XXX"){
-    //     alert("wygrałeś");
-    //   }
-    //   else if ($('.y').text()=="OOO"||$('.y').text()=="XXX"){
-    //     alert("wygrałeś");
-    //   }
-    //   else if ($('.z').text()=="OOO"||$('.z').text()=="XXX"){
-    //     alert("wygrałeś");
-    //   }
+    
    });
     
   };
