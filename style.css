@@ -1,0 +1,5 @@
+table {border: 0px; width: 50%;}
+td {border: 1px solid black; height: 20px;}
+:disabled {
+    background-color: black;
+}
